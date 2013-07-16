@@ -3,4 +3,4 @@
 " URL:        https://github.com/mintplant/vim-literate-coffeescript
 " License:    MIT
 
-runtime ftplugin/coffee.vim
+silent! runtime ftplugin/coffee.vim
