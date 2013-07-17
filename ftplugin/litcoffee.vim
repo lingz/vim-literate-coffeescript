@@ -4,3 +4,7 @@
 " License:    MIT
 
 silent! runtime ftplugin/coffee.vim
+
+" We should honor textwidth since most text is written in Markdown.
+" vim-coffee-script disables that so lets re-enable it.
+setlocal formatoptions+=t
